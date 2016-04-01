@@ -1,0 +1,104 @@
+<?php
+use Flywheel\View\Render;
+use Toxotes\Cms;
+
+/** @var Render $this */
+/** @var Posts[] $posts */
+/** @var Terms $cat */
+/** @var $total */
+/** @var $keyword */
+/** @var $page_size */
+
+$page_title = $cat->getName();
+$this->document()->title = $page_title;
+?>
+
+<div class="padding">
+
+    <div class="row">
+        <div class="col-sm-8 col-xs-12">
+
+            <ol class="breadcrumb">
+                <li><a href="">Trang chủ</a></li>
+                <li class="active"><?= $cat->getName() ?></li>
+            </ol>
+
+            <?php if($keyword){ ?>
+                <p class="text-info">Tìm thấy <strong><?php echo $total ?></strong> kết quả với từ khóa <strong>[ <?php echo $keyword ?> ]</strong></p>
+            <?php } ?>
+
+            <div class="list-group">
+                <a href="javascript:" class="list-group-item text-uppercase">
+                    <?php echo $cat->getName() ?>
+                </a>
+
+                <?php if (!empty($posts)){ ?>
+
+                    <?php
+                    foreach($posts as $post) :
+                        $detail_link = $controller->createUrl('post/detail', array('id' => $post->getId()));
+                        $img = $post->getMainImg();
+                        if ($img) {
+                            $img = $img->getThumbs('680', null, 'r');
+                        }
+                        ?>
+
+                        <div class="list-group-item">
+                            <div class="media">
+                                <div class="media-left">
+                                    <?php if($post->getMainImg()){ ?>
+                                        <a href="<?php echo $detail_link ?>">
+                                            <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 150px;" src="<?php echo $img ?>" data-holder-rendered="true">
+                                        </a>
+                                    <?php } ?>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="media-heading">
+                                        <a href="<?php echo $detail_link ?>"><?php echo $post->getTitle(); ?></a>
+                                    </h5>
+                                    <?php echo $post->getExcerpt() ?>
+                                </div>
+                            </div>
+                        </div>
+
+                    <?php endforeach; ?>
+
+                <?php }else{ ?>
+                    <div class="list-group-item">
+                        <small class="text-danger">Chưa có dữ liệu.</small>
+                    </div>
+                <?php } ?>
+
+            </div>
+
+            <!-- begin paging -->
+            <div id="paging">
+                <nav>
+                    <?php
+                    $route[0] = 'category/default';
+                    foreach ($_GET as $k=>$v) {
+                        $route[$k] = $v;
+                    }
+                    if ($total > 0 && $page_size > 0) {
+                        $this->widget('app.Widget.FrontendPagination', array(
+                            'pageSize' => $page_size,
+                            'total' => $total,
+                            'currentPage' => $this->request()->get('page', 'INT', 1),
+                            'route' => $route,
+                        ));
+                    }
+                    ?>
+                </nav>
+            </div>
+            <!-- end paging -->
+
+        </div>
+
+        <div class="col-sm-4 col-xs-12">
+
+            <?php include __DIR__ .'/../../sidebar.php'; ?>
+
+        </div>
+    </div>
+
+</div>

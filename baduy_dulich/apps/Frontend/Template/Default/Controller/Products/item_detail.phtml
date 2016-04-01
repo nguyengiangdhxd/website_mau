@@ -1,0 +1,159 @@
+<?php
+use Flywheel\View\Render;
+use Toxotes\Cms;
+
+/** @var Render $this */
+/** @var Items $item */
+/** @var Terms $term */
+
+$title = $item->getName();
+$page_title = $title;
+$this->document()->title = $page_title;
+
+$imgDefault = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGVmNDZlZWE5NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZWY0NmVlYTk1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMi45NTgzMzM5NjkxMTYyMTEiIHk9IjM2LjY1Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==";
+
+$imgThumbLarge = $item->getMainImgThumb(800);
+$imgThumbLarge = $imgThumbLarge ? $imgThumbLarge : $imgDefault;
+
+$imgThumb = $item->getMainImgThumb(300);
+$imgThumb = $imgThumb ? $imgThumb : $imgDefault;
+
+?>
+
+<div class="row">
+    <div class="col-sm-3 col-xs-12">
+
+        <?php include __DIR__ .'/../../sidebar.php'; ?>
+
+    </div>
+    <div class="col-sm-9 col-xs-12">
+
+        <ol class="breadcrumb">
+            <li><a href="">Trang chủ</a></li>
+
+            <li><a href="<?php echo $controller->createUrl('products/category', array('id' => $term->getId())); ?>"><?php echo $term->getName() ?></a></li>
+
+            <li class="active"><?php echo $title ?></li>
+        </ol>
+
+        <div class="list-group">
+            <a href="javascript:" class="list-group-item text-uppercase">
+                <?php echo $title ?>
+            </a>
+
+            <div class="list-group-item">
+                <div class="row">
+                    <div class="col-sm-5 col-xs-12">
+                        <a href="<?php echo $imgThumbLarge ?>" class="fancybox thumbnail">
+                            <img data-src="holder.js/100%x180" alt="100%x180" style="width: 100%; display: block;" src="<?php echo $imgThumb ?>" data-holder-rendered="true">
+                        </a>
+                    </div>
+                    <div class="col-sm-7 col-xs-12">
+                        <h4>
+                            <a href="javascript:"><?php echo $title ?></a>
+                        </h4>
+
+                        <div class="text-info">
+                            <?php echo $item->getExcerpt() ?>
+                        </div>
+
+                        <div class="text-danger"><strong>Giá: </strong> <?php echo number_format($item->getRegularPrice(), 2, ",", ".") ?> VNĐ</div>
+
+                        <button type="button" class="hidden btn btn-primary"><i class="fa fa-plus"></i> Đặt mua</button>
+
+                        <button type="button" class="hidden btn btn-danger"><i class="fa fa-shopping-cart"></i> Giỏ hàng</button>
+
+                    </div>
+                </div>
+
+                <ul id="myTabs" class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#info" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Thông tin chi tiết</a></li>
+                    <li role="presentation"><a href="#comments" role="tab" data-toggle="tab" aria-controls="profile">Bình luận</a></li>
+                </ul>
+
+                <div id="myTabContent" class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="info" aria-labelledby="home-tab">
+                        <?php echo $item->getDescription() ? $item->getDescription() : "<small>Không có thông tin.</small>" ?>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane fade" id="comments" aria-labelledby="profile-tab">
+                        <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <?php
+
+        $product_cat_limit = (int)\Setting::get('product_cat_other_limit');
+        $product_cat_limit = $product_cat_limit ? $product_cat_limit : 4;
+
+        $product_cat_ids = [ $term->getId() ];
+        foreach($product_cat_ids as $pro_cat_id){
+            $proCat = \Terms::retrieveById($pro_cat_id);
+            if($proCat instanceof \Terms){
+                $proCatName = $proCat->getName();
+                $proCatLink = $controller->createUrl('products/category', array('id' => $proCat->getId()));
+
+                $q = \Items::select();
+                $q->andWhere('`status` = "ACTIVE"');
+                $q->andWhere('`is_draft` = 0');
+                $q->andWhere("`cat_id` = {$pro_cat_id}");
+                $q->andWhere(" `id` != {$item->getId()} ");
+                $q->orderBy('public_time', 'DESC');
+                $q->setMaxResults($product_cat_limit);
+                $items = $q->execute();
+
+                ?>
+
+                <div class="list-group">
+                    <a title="<?php echo $proCatName ?>" href="<?php echo $proCatLink ?>" class="list-group-item text-uppercase">
+                        <?php echo $proCatName ?>
+                    </a>
+                    <div class="list-group-item">
+                        <?php if(sizeof($items)){ ?>
+                            <div class="row">
+                                <?php foreach($items as $ii){
+                                    if(!$ii instanceof \Items){
+                                        continue;
+                                    }
+
+                                    $detail_link = $controller->createUrl('products/detail', array('id' => $ii->getId()));
+                                    $title = $ii->getName();
+                                    $regular_price = $ii->getRegularPrice();
+                                    $imgThumb = $ii->getMainImgThumb(200);
+                                    $imgThumb = $imgThumb ? $imgThumb : $imgDefault;
+
+                                    ?>
+
+                                    <div class="box-product-item col-sm-3 col-xs-12 text-center">
+                                        <a href="<?php echo $detail_link ?>">
+                                            <img alt="<?php echo $title ?>" width="100%" src="<?php echo $imgThumb ?>" />
+                                        </a>
+                                        <h5>
+                                            <a class="ellipsis" href="<?php echo $detail_link ?>" title="<?php echo $title ?>">
+                                                <?php echo $title ?>
+                                            </a>
+                                        </h5>
+                                        <p class="text-danger"><?php echo number_format($regular_price, 2, ",", ".") ?> VNĐ</p>
+                                    </div>
+
+
+                                <?php } ?>
+                            </div>
+                        <?php }else{ ?>
+                            <small class="text-danger">Không có sản phẩm cùng loại nào.</small>
+                        <?php } ?>
+
+                    </div>
+                </div>
+
+                <?php
+            }
+        }
+
+        ?>
+
+    </div>
+</div>

@@ -1,0 +1,75 @@
+<?php
+use Frontend\Controller\FrontendBase;
+
+/** @var \Terms $term */
+/** @var \Posts $post */
+/** @var $total_news_other */
+/** @var $news_other */
+/** @var FrontendBase $controller */
+
+$this->document()->addJs('js/menu.js');
+
+$page_title = $post->getTitle();
+$this->document()->title = $page_title;
+
+$link = $controller->createUrl('post/detail', array('id' => $post->getId()), '&', true); //absolute link for facebook comment
+
+$img = $post->getMainImg();
+
+?>
+
+<div class="padding">
+
+    <div class="row">
+        <div class="col-sm-8 col-xs-12">
+
+            <ol class="breadcrumb">
+                <li><a href="">Trang chủ</a></li>
+                <li class="active"><?php echo $post->getTitle(); ?></li>
+            </ol>
+
+            <div class="list-group">
+                <a href="javascript:" class="list-group-item text-uppercase">
+                    <?php echo $post->getTitle(); ?>
+                </a>
+
+                <div class="list-group-item">
+                    <?php echo $post->getContent() ?>
+                </div>
+            </div>
+
+            <div class="list-group">
+                <a href="#" class="list-group-item text-uppercase">
+                    CÁC TIN KHÁC
+                </a>
+
+                <div class="list-group-item">
+
+                    <?php if($total_news_other){ ?>
+                        <ul>
+                            <?php foreach($news_other as $item){
+                                if($item instanceof \Posts){
+                                    $detail_link = $controller->createUrl('post/detail', array('id' => $item->getId()));
+                                    ?>
+                                    <li>
+                                        <a href="<?php echo $detail_link; ?>"><?php echo $item->getTitle(); ?></a><span>&nbsp;&nbsp;&nbsp;<?php echo $item->getCreatedTime()->format('H:i d/m/Y'); ?></span>
+                                    </li>
+                                <?php } ?>
+                            <?php } ?>
+                        </ul>
+                    <?php }else{ ?>
+                        <small class="text-danger">Không có tin liên quan.</small>
+                    <?php } ?>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <?php include __DIR__ .'/../../sidebar.php'; ?>
+        </div>
+    </div>
+
+</div>
+
+

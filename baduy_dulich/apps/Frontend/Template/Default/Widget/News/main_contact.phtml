@@ -1,0 +1,85 @@
+<?php
+/** @var $widget */
+/** @var Terms $term */
+use Flywheel\Document\Html;
+/** @var Html $document */
+$document = $this->document();
+?>
+
+<script>
+    $(document).ready(function(){
+        var classHidden = "hidden";
+        //on pc
+        $("#bottom > ._map-view").not(":first").addClass(classHidden);
+        $("._choose-address > div").click(function(){
+            var index = $(this).index();
+            $("#bottom > ._map-view").addClass(classHidden);
+            $("#bottom > ._map-view:eq(" + index + ")").removeClass(classHidden);
+            switch (index){
+                case 0:
+                    $(this).parent().addClass("arrow").removeClass("arrow_right");
+                    break;
+                case 1:
+                    $(this).parent().addClass("arrow_right").removeClass("arrow");
+                    break;
+                default:
+                    //todo
+                    break;
+            }
+        });
+        //on mobile
+        $("#address-full > ul > li").each(function(i){
+            $(this).find("._map-view").removeClass(classHidden);
+            $(this).find("._map-view").find("iframe").remove();
+            $(this).find("._map-view").find("._address-detail").removeClass("address-detail");
+        });
+    });
+</script>
+
+<!-- begin address -->
+<div class="section" id="section6">
+    <div id="address" class="animateblock size" data-id="7rdPage">
+        <div id="top" class="_choose-address arrow">
+            <?php if(sizeof($widget->list) > 0){ ?>
+                <?php
+                for($i = 0, $size = sizeof($widget->list); $i < $size; ++$i){
+                    $item = $widget->list[$i];
+                    if($item instanceof \Posts){
+                ?>
+                        <div class="text-uppercase"><?php echo $item->getTitle() ?></div>
+                    <?php } ?>
+                <?php } ?>
+            <?php } ?>
+
+        </div>
+        <div id="bottom">
+
+            <?php if(sizeof($widget->list) > 0){ ?>
+                <?php
+                    for($i = 0, $size = sizeof($widget->list); $i < $size; ++$i){
+                        $item = $widget->list[$i];
+                        if($item instanceof \Posts){
+                ?>
+                        <?php echo $item->getContent() ?>
+                    <?php } ?>
+                <?php } ?>
+
+            <div class="hidden-lg hidden-md hidden-sm" id="address-full">
+                <ul>
+                    <?php
+                        for($i = 0, $size = sizeof($widget->list); $i < $size; ++$i){
+                            $item = $widget->list[$i];
+                                if($item instanceof \Posts){
+                    ?>
+                                <li>
+                                    <h3><?php echo $item->getTitle() ?></h3>
+                                    <?php echo $item->getContent() ?>
+                                </li>
+                            <?php } ?>
+                    <?php } ?>
+                </ul>
+            </div>
+            <?php } ?>
+        </div>
+    </div>
+</div>

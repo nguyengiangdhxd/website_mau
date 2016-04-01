@@ -1,0 +1,49 @@
+<?php
+/** @var $widget */
+/** @var Terms $term */
+use Flywheel\Document\Html;
+/** @var Html $document */
+$document = $this->document();
+?>
+
+<div class="list-group">
+    <a href="javascript:" class="list-group-item text-uppercase active">
+        <?php echo $widget->term->getName() ?>
+    </a>
+
+    <?php if(sizeof($widget->list) > 0){ ?>
+
+            <?php
+            for($i = 0, $size = sizeof($widget->list); $i < $size; ++$i){
+                $item = $widget->list[$i];
+                if($item instanceof \Posts){
+                    $detail_link = $controller->createUrl('post/detail', array('id' => $item->getId()));
+                    $img = $item->getMainImg();
+                    ?>
+
+                    <div class="list-group-item">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="<?php echo $detail_link ?>">
+                                    <?php if ($img) : ?>
+                                        <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 64px; height: 64px;" src="<?php echo $img->getUrl() ?>" data-holder-rendered="true">
+                                    <?php endif ?>
+
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="media-heading">
+                                    <a href="<?php echo $detail_link ?>"><?php echo $item->getTitle() ?></a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                <?php } ?>
+            <?php } ?>
+
+    <?php }else{ ?>
+        <h6>Chưa có dữ liệu</h6>
+    <?php } ?>
+
+</div>

@@ -1,0 +1,76 @@
+<?php
+use Frontend\Controller\FrontendBase;
+
+/** @var \Terms $term */
+/** @var \Posts $post */
+/** @var $total_news_other */
+/** @var $news_other */
+/** @var FrontendBase $controller */
+
+$page_title = $post->getTitle();
+$this->document()->title = $page_title;
+
+$link = $controller->createUrl('post/detail', array('id' => $post->getId()), '&', true); //absolute link for facebook comment
+
+$img = $post->getMainImg();
+
+$this->document()->addJs('js/menu.js');
+
+?>
+
+<div id="page-teambuilding">
+    <div class="container">
+        <h3><?php echo $post->getTitle(); ?></h3>
+
+        <div class="time">
+            <span><i class="fa fa-calendar-o"></i> <?php echo $post->getCreatedTime()->format('H:i d/m/Y'); ?></span>
+
+            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
+
+        <div class="content"><?php echo $post->getContent() ?></div>
+
+        <div class="box-footer">
+            <h3>Các hoạt động khác</h3>
+
+            <?php if($total_news_other){ ?>
+
+                <ul class="b-list">
+                    <?php
+                    foreach($news_other as $item){
+                        if($item instanceof \Posts){
+                            $detail_link = $controller->createUrl('post/detail', array('id' => $item->getId()));
+                            $img = $item->getMainImg();
+                            if ($img) {
+                                $img = $img->getThumbs('300', null, 'r');
+                            }
+                        ?>
+
+                            <li>
+                                <?php if($item->getMainImg()){ ?>
+                                    <div class="module-float text-center">
+                                        <a href="<?php echo $detail_link ?>">
+                                            <img src="<?php echo $img ?>">
+                                        </a>
+                                    </div>
+                                <?php } ?>
+
+                                <a class="link" href="<?php echo $detail_link ?>" title="<?php echo $item->getTitle(); ?>">
+                                    <?php echo $item->getTitle(); ?> <?php echo $item->getCreatedTime()->format('H:i d/m/Y'); ?>
+                                </a>
+                            </li>
+
+                        <?php } ?>
+                    <?php } ?>
+                </ul>
+
+            <?php }else{ ?>
+                <h5>Chưa có dữ liệu.</h5>
+            <?php } ?>
+
+
+
+        </div>
+
+    </div>
+</div>

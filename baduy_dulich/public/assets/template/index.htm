@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blank</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-theme.min.css">
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek,vietnamese" rel="stylesheet" type="text/css" />
+
+    <!-- bxSlider CSS file -->
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/libs/jquery-1.11.3.min.js"></script>
+
+    <!-- bxSlider Javascript file -->
+    <script src="js/plugins/jquery.bxslider.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/libs/bootstrap.min.js"></script>
+
+    <script src="js/process/main.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            $("._menu-item").click(function(e){
+                e.preventDefault();
+                console.info('clicked');
+                var $self = $(this);
+                var page = $self.data('page');
+                loadPage(page);
+            });
+
+            init();
+        });
+
+        function init(){
+            loadPage('home.htm');
+        }
+
+        function loadPage(page){
+            if(!page) return false;
+            $("#_main-content").load(page);
+        }
+    </script>
+</head>
+<body>
+
+<a href="#" id="back-to-top" title="Back to top">
+    <i class="fa fa-arrow-circle-up"></i>
+</a>
+
+<div class="container">
+    <div id="wrapper">
+        <header>
+            <div class="top">
+                <a href="">
+                    <img src="images/logo2.png" />
+                </a>
+            </div>
+
+            <div class="banner">
+                <a href="">
+                    <img src="images/Muatour_tangtour.jpg" width="100%" />
+                </a>
+            </div>
+
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a class="_menu-item" data-page="home.htm" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="">
+                                <a class="_menu-item" data-page="news.htm" href="#">DS tin tức <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="">
+                                <a class="_menu-item" data-page="new-detail.htm" href="#">Chi tiết tin tức <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="">
+                                <a class="_menu-item" data-page="contact.htm" href="#">Liên hệ <span class="sr-only">(current)</span></a>
+                            </li>
+
+                            <li><a href="#">Tour nước ngoài</a></li>
+                            <li><a href="#">Tour trong nước</a></li>
+                            <li><a href="#">Tour hội nghị</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+
+        <div class="main-content" id="_main-content">
+            <!-- Nội dung sẽ hiển thị tại đây -->
+        </div>
+
+        <footer>
+            © 2015 Bản quyền thuộc về Công ty Cổ Phần FIDITOUR<br />
+            Địa chỉ: 129 Nguyễn Huệ, Quận 1, Tp Hồ Chí Minh<br />
+            Điện thoại: (84)8 39 14 14 14 - (84)8 38 28 22 82 | Fax: (84)8 39 14 13 63 | Email: fidi@fiditour.com<br />
+        </footer>
+
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,480 @@
+<script>
+    $(document).ready(function(){
+        $('.bxslider').bxSlider({
+//            adaptiveHeight: true,
+//            mode: 'fade'
+        });
+    });
+</script>
+
+<div class="box-slider">
+
+    <div class="col-sm-6 col-xs-12">
+        <?php $controller->block('block_widget_slideshow_home_left'); ?>
+    </div>
+
+    <div class="col-sm-6 col-xs-12">
+        <?php $controller->block('block_widget_slideshow_home_right'); ?>
+    </div>
+
+</div>
+
+<?php $controller->block('block_widget_adv_home_top'); ?>
+
+<div class="hidden box-list-tours-detail col-sm-12 hidden-xs">
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"><strong>TOUR TRONG NƯỚC</strong></a></li>
+        <li role="presentation"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"><strong>TOUR NƯỚC NGOÀI</strong></a></li>
+    </ul>
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="tab1">
+                    <!-- Table -->
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th class="text-center">TT</th>
+                            <th>Hình ảnh</th>
+                            <th>Mã tour</th>
+                            <th>Hành trình tour</th>
+                            <th>Ngày</th>
+                            <th>Phương tiện</th>
+                            <th>Khởi hành</th>
+                            <th>Giá tour(VNĐ)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th class="text-center" scope="row">1</th>
+                            <td>
+                                <img src="assets/images/du_lich_thai_lan_Alcazar.jpg" width="90px" />
+                            </td>
+                            <td>HQJP7.180915 </td>
+                            <td>
+                                <a href="">
+                                    <h6 style="margin: 2px 0 0;">TOUR LIÊN TUYẾN HÀN QUỐC - NHẬT BẢN</h6>
+                                </a>
+                            </td>
+                            <td>6N 6Đ</td>
+                            <td>Máy bay</td>
+                            <td>18/09, 20/10</td>
+                            <td>
+                                <div class="text-danger">31.900.000</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="text-center" scope="row">2</th>
+                            <td>
+                                <img src="assets/images/du_lich_thai_lan_Alcazar.jpg" width="90px" />
+                            </td>
+                            <td>HQJP7.180915 </td>
+                            <td>
+                                <a href="">
+                                    <h6 style="margin: 2px 0 0;">TOUR LIÊN TUYẾN HÀN QUỐC - NHẬT BẢN</h6>
+                                </a>
+                            </td>
+                            <td>6N 6Đ</td>
+                            <td>Máy bay</td>
+                            <td>18/09, 20/10</td>
+                            <td>
+                                <div class="text-danger">31.900.000</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="text-center" scope="row">3</th>
+                            <td>
+                                <img src="assets/images/du_lich_thai_lan_Alcazar.jpg" width="90px" />
+                            </td>
+                            <td>HQJP7.180915 </td>
+                            <td>
+                                <a href="">
+                                    <h6 style="margin: 2px 0 0;">TOUR LIÊN TUYẾN HÀN QUỐC - NHẬT BẢN</h6>
+                                </a>
+                            </td>
+                            <td>6N 6Đ</td>
+                            <td>Máy bay</td>
+                            <td>18/09, 20/10</td>
+                            <td>
+                                <div class="text-danger">31.900.000</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="text-center" scope="row">4</th>
+                            <td>
+                                <img src="assets/images/du_lich_thai_lan_Alcazar.jpg" width="90px" />
+                            </td>
+                            <td>HQJP7.180915 </td>
+                            <td>
+                                <a href="">
+                                    <h6 style="margin: 2px 0 0;">TOUR LIÊN TUYẾN HÀN QUỐC - NHẬT BẢN</h6>
+                                </a>
+                            </td>
+                            <td>6N 6Đ</td>
+                            <td>Máy bay</td>
+                            <td>18/09, 20/10</td>
+                            <td>
+                                <div class="text-danger">31.900.000</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="text-center" scope="row">5</th>
+                            <td>
+                                <img src="assets/images/du_lich_thai_lan_Alcazar.jpg" width="90px" />
+                            </td>
+                            <td>HQJP7.180915 </td>
+                            <td>
+                                <a href="">
+                                    <h6 style="margin: 2px 0 0;">TOUR LIÊN TUYẾN HÀN QUỐC - NHẬT BẢN</h6>
+                                </a>
+                            </td>
+                            <td>6N 6Đ</td>
+                            <td>Máy bay</td>
+                            <td>18/09, 20/10</td>
+                            <td>
+                                <div class="text-danger">31.900.000</div>
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="tab2">
+                    <!-- Table -->
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th class="text-center">TT</th>
+                            <th>Hình ảnh</th>
+                            <th>Mã tour</th>
+                            <th>Hành trình tour</th>
+                            <th>Ngày</th>
+                            <th>Phương tiện</th>
+                            <th>Khởi hành</th>
+                            <th>Giá tour(VNĐ)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th class="text-center" scope="row">1</th>
+                            <td>
+                                <img src="assets/images/du_lich_thai_lan_Alcazar.jpg" width="90px" />
+                            </td>
+                            <td>HQJP7.180915 </td>
+                            <td>
+                                <a href="">
+                                    <h6 style="margin: 2px 0 0;">TOUR LIÊN TUYẾN HÀN QUỐC - NHẬT BẢN</h6>
+                                </a>
+                            </td>
+                            <td>6N 6Đ</td>
+                            <td>Máy bay</td>
+                            <td>18/09, 20/10</td>
+                            <td>
+                                <div class="text-danger">31.900.000</div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th class="text-center" scope="row">2</th>
+                            <td>
+                                <img src="assets/images/du_lich_thai_lan_Alcazar.jpg" width="90px" />
+                            </td>
+                            <td>HQJP7.180915 </td>
+                            <td>
+                                <a href="">
+                                    <h6 style="margin: 2px 0 0;">TOUR LIÊN TUYẾN HÀN QUỐC - NHẬT BẢN</h6>
+                                </a>
+                            </td>
+                            <td>6N 6Đ</td>
+                            <td>Máy bay</td>
+                            <td>18/09, 20/10</td>
+                            <td>
+                                <div class="text-danger">31.900.000</div>
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="box-tours">
+
+    <?php
+
+    $tour_id_root = 72;//ID thư mục tour
+    $tour_cat_limit = 4;
+
+    //Lấy toàn bộ những thư mục con nằm trong thư mục gốc
+    $query = \Terms::findByParentId($tour_id_root);
+    if($query) {
+
+        foreach ($query as $tourCat) {
+
+            if ($tourCat instanceof \Terms) {
+                $tourCatName = $tourCat->getName();
+                $tourCatId = $tourCat->getId();
+                $tourCatLink = $controller->createUrl('category/default', array('id' => $tourCat->getId()));
+
+                $q = \Posts::select();
+                $q->andWhere("`status` = 'PUBLISH' AND `is_draft` = 0");
+                $q->andWhere("`term_id` = {$tourCatId}");
+                $q->addOrderBy('created_time', 'DESC');
+                $q->setMaxResults($tour_cat_limit);
+                $tourItems = $q->execute();
+
+                ?>
+
+                <div class="col-sm-4 col-xs-12">
+                    <div class="box-tour">
+                        <div class="box-tour-header">
+                            <h3>
+                                <a href="<?= $tourCatLink ?>" title="<?= $tourCatName ?>" class="">
+                                    <?= $tourCatName ?>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="box-tour-body">
+                            <?php if(sizeof($tourItems)){ ?>
+                                <ul>
+                                    <?php
+                                    $count = 0;
+                                    foreach($tourItems as $post) {
+                                        if(!$post instanceof \Posts){
+                                            continue;
+                                        }
+                                        $detail_link = $controller->createUrl('post/detail', array('id' => $post->getId()));
+                                        $img = $post->getMainImg();
+                                        if ($img) {
+                                            $img = $img->getThumbs('680', null, 'r');
+                                        }
+
+                                        ?>
+
+                                        <li>
+                                            <div class="left">
+                                                <div class="image">
+                                                    <a href="<?= $detail_link ?>">
+                                                        <?php if($post->getMainImg()){ ?>
+                                                            <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 100%;" src="<?php echo $img ?>" data-holder-rendered="true">
+                                                        <?php }else{ ?>
+                                                            <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 100%;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGVmNDZlZWE5NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZWY0NmVlYTk1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMi45NTgzMzM5NjkxMTYyMTEiIHk9IjM2LjY1Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true">
+                                                        <?php } ?>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="right">
+                                                <h3 class="title">
+                                                    <a href="<?php echo $detail_link ?>"><?php echo $post->getTitle(); ?></a>
+                                                </h3>
+                                                <?= $post->getExcerpt() ?>
+                                            </div>
+                                        </li>
+
+                                    <?php } ?>
+                                </ul>
+
+                                <a href="<?= $tourCatLink ?>" class="view-more">Xem thêm&nbsp;&nbsp;<i class="fa fa-angle-double-right"></i></a>
+                            <?php }else{ ?>
+
+                                <small>Chưa có dữ liệu!</small>
+                            <?php } ?>
+                        </div>
+                    </div>
+                </div>
+
+                <?php
+            }
+        }
+    }
+    ?>
+
+</div>
+
+<?php $controller->block('block_widget_adv_home_middle'); ?>
+
+<div class="box-news">
+
+    <?php
+
+    $new_id_root = 66;//ID thư mục tin tức
+    $news_cat_limit = 6;
+
+    //Lấy toàn bộ những thư mục con nằm trong thư mục gốc
+    $query = \Terms::findByParentId($new_id_root);
+    if($query) {
+
+        foreach ($query as $newCat) {
+
+            if ($newCat instanceof \Terms) {
+                $newCatName = $newCat->getName();
+                $newCatId = $newCat->getId();
+                $newCatLink = $controller->createUrl('category/default', array('id' => $newCat->getId()));
+
+                $q = \Posts::select();
+                $q->andWhere("`status` = 'PUBLISH' AND `is_draft` = 0");
+                $q->andWhere("`term_id` = {$newCatId}");
+                $q->addOrderBy('created_time', 'DESC');
+                $q->setMaxResults($news_cat_limit);
+                $newItems = $q->execute();
+
+                ?>
+
+                <div class="col-sm-4 col-xs-12">
+                    <div class="box-tour">
+                        <div class="box-tour-header">
+                            <h3>
+                                <a href="<?php echo $newCatLink ?>" title="<?php echo $newCatName ?>" class="">
+                                    <?php echo $newCatName ?>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="box-tour-body">
+
+                            <?php if(sizeof($newItems)){ ?>
+
+                                <ul>
+                                    <li>
+                                    <?php
+                                    $count = 0;
+                                    foreach($newItems as $post) {
+                                        if(!$post instanceof \Posts){
+                                            continue;
+                                        }
+                                        $count++;
+                                        $detail_link = $controller->createUrl('post/detail', array('id' => $post->getId()));
+                                        $img = $post->getMainImg();
+                                        if ($img) {
+                                            $img = $img->getThumbs('680', null, 'r');
+                                        }
+
+                                        ?>
+
+                                        <?php if($count == 1){ ?>
+                                            <div class="left">
+                                                <div class="image">
+                                                    <a href="<?php echo $detail_link ?>">
+                                                        <?php if($post->getMainImg()){ ?>
+                                                            <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 100%;" src="<?php echo $img ?>" data-holder-rendered="true">
+                                                        <?php }else{ ?>
+                                                            <img alt="64x64" data-src="holder.js/64x64" class="media-object" style="width: 100%;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGVmNDZlZWE5NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZWY0NmVlYTk1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMi45NTgzMzM5NjkxMTYyMTEiIHk9IjM2LjY1Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true">
+                                                        <?php } ?>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <div class="right">
+
+                                                <h3 class="title">
+                                                    <a href="<?php echo $detail_link ?>"><?php echo $post->getTitle(); ?></a>
+                                                </h3>
+                                                <div class="description">
+                                                    <?php echo $post->getExcerpt() ?>
+                                                </div>
+
+                                            </div>
+                                        <?php } ?>
+
+                                        <?php if($count > 1){ ?>
+                                            <ul class="other">
+                                                <li>
+                                                    <a href="<?php echo $detail_link ?>"><?php echo $post->getTitle(); ?></a>
+                                                </li>
+                                            </ul>
+                                        <?php } ?>
+
+                                        <?php } ?>
+                                    </li>
+                                </ul>
+
+                                <a href="<?php echo $newCatLink ?>" class="view-more">Xem thêm&nbsp;&nbsp;<i class="fa fa-angle-double-right"></i></a>
+
+                            <?php }else{ ?>
+                                <small class="text-danger">Chưa có dữ liệu.</small>
+                            <?php } ?>
+
+                        </div>
+                    </div>
+                </div>
+
+                <?php
+            }
+        }
+    }
+    ?>
+
+</div>
+
+<div class="box-home-footer">
+    <?php
+        $newCatId = 65;
+        $term = \Terms::retrieveById($newCatId);
+    ?>
+    <div class="col-sm-8 col-xs-12">
+        <div class="box-tour">
+            <div class="box-tour-header">
+                <h3><a href="<?= $controller->createUrl('category/default', array('id' => $newCatId)) ?>"><?= $term->getName() ?></a></h3>
+            </div>
+            <div class="box-tour-body">
+                <ul class="list-galary">
+                    <?php
+
+                    $q = \Posts::select();
+                    $q->andWhere("`status` = 'PUBLISH' AND `is_draft` = 0");
+                    $q->andWhere("`term_id` = {$newCatId}");
+                    $q->addOrderBy('created_time', 'DESC');
+                    $q->setMaxResults(6);
+                    $newItems = $q->execute();
+
+                    foreach($newItems as $post) {
+                        if(!$post instanceof \Posts){
+                            continue;
+                        }
+
+                        $detail_link = $controller->createUrl('post/detail', array('id' => $post->getId()));
+                        $img = $post->getMainImg();
+                        if ($img) {
+                            $img = $img->getThumbs('680', null, 'r');
+                        }
+                    ?>
+
+                    <li>
+                        <a href="<?= $detail_link ?>">
+                            <?php if($post->getMainImg()){ ?>
+                                <img src="<?php echo $img ?>" data-holder-rendered="true">
+                            <?php }else{ ?>
+                                <img  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGVmNDZlZWE5NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZWY0NmVlYTk1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMi45NTgzMzM5NjkxMTYyMTEiIHk9IjM2LjY1Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true">
+                            <?php } ?>
+                        </a>
+
+                        <h5>
+                            <a href="<?= $detail_link ?>"><?= $post->getTitle() ?></a>
+                        </h5>
+                    </li>
+                    <?php } ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4 col-xs-12">
+        <?php $controller->block('block_widget_adv_home_bottom'); ?>
+    </div>
+
+</div>

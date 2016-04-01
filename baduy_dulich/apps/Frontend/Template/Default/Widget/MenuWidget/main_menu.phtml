@@ -1,0 +1,67 @@
+<?php
+/** @var SlideShow $widget */
+use Flywheel\Document\Html;
+
+/** @var $items */
+
+/** @var Html $document */
+$document = $this->document();
+//print_r($items);
+$keyword = $this->request()->get('keyword');
+
+?>
+
+<?php if ($items){ ?>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                    <?php for ($i = 0, $size = sizeof($items); $i < $size; ++$i){ ?>
+                        <?php
+                        $hasChild = (isset($items[$i]['items']) && sizeof($items[$i]['items']) > 0);
+                        $link = ($hasChild)? 'javascript:void(0);' : $items[$i]['url'];
+                        ?>
+                        <li class="<?php echo $hasChild ? ' dropdown ' : '' ?>">
+                            <?php if($hasChild){ ?>
+                                <a href="<?php echo $items[$i]['url'] ?>" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $items[$i]['label'] ?> <span class="caret"></span></a>
+                            <?php }else{ ?>
+                                <a href="<?php echo $items[$i]['url'] ?>" title="<?php echo $items[$i]['label'] ?>">
+                                    <?php echo $items[$i]['label'] ?>
+                                </a>
+                            <?php } ?>
+
+                            <?php if($hasChild){ ?>
+                                <ul class="dropdown-menu">
+                                    <?php foreach($items[$i]['items'] as $menu_child){
+                                        $menu_child_url = isset($menu_child['url']) ? $menu_child['url'] : '';
+                                        $menu_child_label = isset($menu_child['label']) ? $menu_child['label'] : '';
+                                        ?>
+                                        <li><a href="<?php echo $menu_child_url ?>"><?php echo $menu_child_label ?></a></li>
+                                    <?php } ?>
+                                </ul>
+                            <?php } ?>
+                        </li>
+
+                    <?php } ?>
+
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+<?php } ?>
+

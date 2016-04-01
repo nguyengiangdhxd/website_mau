@@ -1,0 +1,27 @@
+<?php
+/** @var SlideShow $widget */
+use Flywheel\Document\Html;
+/** @var Html $document */
+$document = $this->document();
+?>
+
+<?php if (!empty($widget->banners)) :?>
+
+    <ul class="bxslider">
+
+        <?php for($i = 0, $size=sizeof($widget->banners); $i < $size; ++$i) :?>
+            <?php
+            $banner = $widget->banners[$i];
+            ?>
+
+            <li>
+                <a href="<?php echo $banner->getLink() ?>" target="<?php echo $banner->getLinkTarget() ?>">
+                    <img src="<?php echo \Setting::get('site_url') . $banner->getFile(); ?>" />
+                </a>
+            </li>
+        <?php endfor; ?>
+    </ul>
+
+<?php endif; ?>
+
+

@@ -1,0 +1,40 @@
+Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Router/WebRouter.php line 158n	Stack trace:
+	#0 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (183): createUrl()
+	#1 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/CMSBackend/Template/Flat/Controller/Menu/default.phtml (111): createUrl()
+	#2 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (138): include()
+	#3 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (102): _render()
+	#4 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Controller/Web.php (214): render()
+	#5 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Controller/Web.php (222): renderPartial()
+REQUEST_URI=/baduy_dulich/public/@dmin/menu/default
+Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Widget/MenuWidget/MenuWidget.php line 100n	Stack trace:
+	#0 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Widget/MenuWidget/MenuWidget.php (16): _getItems()
+	#1 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Widget/MenuWidget/MenuWidget.php (116): begin()
+	#2 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/library/Toxotes/Controller.php (29): html()
+	#3 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/library/Toxotes/Controller.php (36): renderBlock()
+	#4 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/header.php (14): block()
+	#5 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/default.phtml (223): include()
+REQUEST_URI=/baduy_dulich/public/lien-he
+Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Widget/MenuWidget/MenuWidget.php line 100n	Stack trace:
+	#0 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Widget/MenuWidget/MenuWidget.php (16): _getItems()
+	#1 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Widget/MenuWidget/MenuWidget.php (116): begin()
+	#2 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/library/Toxotes/Controller.php (29): html()
+	#3 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/library/Toxotes/Controller.php (36): renderBlock()
+	#4 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/header.php (14): block()
+	#5 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/default.phtml (223): include()
+REQUEST_URI=/baduy_dulich/public/
+Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Router/WebRouter.php line 158n	Stack trace:
+	#0 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (183): createUrl()
+	#1 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/CMSBackend/Template/Flat/Controller/Menu/default.phtml (111): createUrl()
+	#2 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (138): include()
+	#3 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (102): _render()
+	#4 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Controller/Web.php (214): render()
+	#5 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Controller/Web.php (222): renderPartial()
+REQUEST_URI=/baduy_dulich/public/@dmin/menu/default
+Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Widget/MenuWidget/MenuWidget.php line 100n	Stack trace:
+	#0 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Widget/MenuWidget/MenuWidget.php (16): _getItems()
+	#1 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Widget/MenuWidget/MenuWidget.php (116): begin()
+	#2 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/library/Toxotes/Controller.php (29): html()
+	#3 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/library/Toxotes/Controller.php (36): renderBlock()
+	#4 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/header.php (14): block()
+	#5 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/default.phtml (223): include()
+REQUEST_URI=/baduy_dulich/public/

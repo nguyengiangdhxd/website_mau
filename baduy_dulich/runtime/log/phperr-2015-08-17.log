@@ -1,0 +1,24 @@
+Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/sidebar.php line 37n	Stack trace:
+	#0 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/Controller/Category/default.phtml (99): include()
+	#1 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (138): include()
+	#2 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (102): _render()
+	#3 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Controller/Web.php (214): render()
+	#4 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Controller/Web.php (222): renderPartial()
+	#5 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Controller/Category.php (115): renderComponent()
+REQUEST_URI=/baduy_dulich/public/danh-muc/tour-trong-nuoc-73
+Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/sidebar.php line 37n	Stack trace:
+	#0 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/Controller/Category/default.phtml (99): include()
+	#1 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (138): include()
+	#2 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (102): _render()
+	#3 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Controller/Web.php (214): render()
+	#4 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Controller/Web.php (222): renderPartial()
+	#5 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Controller/Category.php (115): renderComponent()
+REQUEST_URI=/baduy_dulich/public/danh-muc/tour-trong-nuoc-73
+Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/sidebar.php line 37n	Stack trace:
+	#0 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Template/Default/Controller/Category/default.phtml (99): include()
+	#1 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (138): include()
+	#2 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/View/Render.php (102): _render()
+	#3 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Controller/Web.php (214): render()
+	#4 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/vendor/tronghieu/flywheel-framework/src/Flywheel/Controller/Web.php (222): renderPartial()
+	#5 /Applications/XAMPP/xamppfiles/htdocs/baduy_dulich/apps/Frontend/Controller/Category.php (115): renderComponent()
+REQUEST_URI=/baduy_dulich/public/danh-muc/tour-trong-nuoc-73

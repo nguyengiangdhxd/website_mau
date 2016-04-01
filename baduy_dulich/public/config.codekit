@@ -1,0 +1,3748 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "18493",
+"files": {
+	"\/@dmin\/assets\/flat\/css\/bootstrap.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/bootstrap.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/custom.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/custom.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/editor.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/editor.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/menu.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/menu.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/fileupload\/jquery.fileupload-ui.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/fileupload\/jquery.fileupload-ui.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/icheck\/all.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/icheck\/all.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/icheck\/flat\/_all.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/icheck\/flat\/_all.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/icheck\/futurico\/futurico.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/icheck\/futurico\/futurico.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/icheck\/line\/_all.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/icheck\/line\/_all.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/icheck\/minimal\/_all.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/icheck\/minimal\/_all.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/icheck\/polaris\/polaris.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/icheck\/polaris\/polaris.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/icheck\/square\/_all.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/icheck\/square\/_all.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/icheck\/square\/blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2185,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/icheck\/square\/blue.png",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/icheck\/square\/blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/jquery-ui\/jquery-ui.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/jquery-ui\/jquery-ui.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/nprogress\/nprogress.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/nprogress\/nprogress.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/plugins\/select2\/select2.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/plugins\/select2\/select2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/post.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/post.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/css\/transporter\/transporter.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/css\/transporter\/transporter.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/assets\/flat\/js\/application.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/application.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/min\/application.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/eakroko.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/eakroko.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/min\/eakroko.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/handlebars-v2.0.0.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/handlebars-v2.0.0.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/min\/handlebars-v2.0.0-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/jquery.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/jquery.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/autoNumeric\/autoNumeric.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/autoNumeric\/autoNumeric.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/autoNumeric\/min\/autoNumeric-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/bootbox\/bootbox.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/bootbox\/bootbox.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/bootbox\/min\/bootbox.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/app.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/cors\/jquery.postmessage-transport.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/cors\/jquery.postmessage-transport.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/cors\/min\/jquery.postmessage-transport-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/cors\/jquery.xdr-transport.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/cors\/jquery.xdr-transport.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/cors\/min\/jquery.xdr-transport-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-angular.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-angular.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/jquery.fileupload-angular-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-audio.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-audio.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/jquery.fileupload-audio-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-image.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-image.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/jquery.fileupload-image-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-process.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-process.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/jquery.fileupload-process-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-ui.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-ui.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/jquery.fileupload-ui-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-validate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-validate.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/jquery.fileupload-validate-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-video.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload-video.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/jquery.fileupload-video-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.fileupload.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/jquery.fileupload-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.iframe-transport.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/jquery.iframe-transport.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/jquery.iframe-transport-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/main.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/vendor\/jquery.ui.widget.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/vendor\/jquery.ui.widget.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/fileupload\/vendor\/min\/jquery.ui.widget-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/form\/jquery.form.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/form\/jquery.form.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/form\/min\/jquery.form.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/icheck\/jquery.icheck.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/icheck\/jquery.icheck.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/icheck\/min\/jquery.icheck.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/jquery-ui\/jquery-ui.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/jquery-ui\/jquery-ui.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/jquery-ui\/min\/jquery-ui-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/nicescroll\/jquery.nicescroll.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/nicescroll\/jquery.nicescroll.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/nicescroll\/min\/jquery.nicescroll.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/nprogress\/nprogress.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/nprogress\/nprogress.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/nprogress\/min\/nprogress-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/select2\/select2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/select2\/select2.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/select2\/min\/select2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/slimscroll\/jquery.slimscroll.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/slimscroll\/jquery.slimscroll.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/slimscroll\/min\/jquery.slimscroll.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/typeahead\/typeahead.bundle.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/typeahead\/typeahead.bundle.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/typeahead\/min\/typeahead.bundle-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/validation\/additional-methods.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/validation\/additional-methods.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/validation\/min\/additional-methods.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/plugins\/validation\/jquery.validate.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/validation\/jquery.validate.min.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/plugins\/validation\/min\/jquery.validate.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/account.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/account.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/min\/account-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/character.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/character.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/min\/character-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/common.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/common.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/min\/common-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/donate_history.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/donate_history.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/min\/donate_history-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/flye\/items.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/flye\/items.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/flye\/min\/items-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/menus.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/menus.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/min\/menus-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/paginator.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/paginator.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/min\/paginator-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/post_form.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/post_form.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/min\/post_form-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/roles.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/roles.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/min\/roles-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/transporter\/customer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/transporter\/customer.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/transporter\/min\/customer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/transporter\/location.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/transporter\/location.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/transporter\/min\/location-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/transporter\/order.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/transporter\/order.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/transporter\/min\/order-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/transporter\/order_form.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/transporter\/order_form.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/transporter\/min\/order_form-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/transporter\/transporter.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/transporter\/transporter.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/transporter\/min\/transporter-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/assets\/flat\/js\/process\/user.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/user.js",
+		"outputAbbreviatedPath": "\/@dmin\/assets\/flat\/js\/process\/min\/user-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/@dmin\/captcha.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/captcha.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/@dmin\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/@dmin\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/article.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/article.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/blog-detail.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/blog-detail.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/blog.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/blog.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/css\/bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/css\/bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/css\/font-awesome.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/css\/font-awesome.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/css\/jquery.fullPage.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/css\/jquery.fullPage.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/css\/jquery.fullPage.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/css\/jquery.fullPage.scss",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/css\/jquery.fullPage.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/alitech-template\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/css\/main.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/css\/main.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/css\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/css\/main.scss",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/alitech-template\/images\/bg-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112178,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/bg-01.png",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/bg-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/bg-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5306,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/bg-footer.png",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/bg-footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/bg-intro-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58208,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/bg-intro-mobile.png",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/bg-intro-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/demo1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/demo1.png",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/demo1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/demo2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6415,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/demo2.png",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/demo2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3641,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/logo.png",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/logo1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8635,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/logo1.png",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/logo1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/ocean-dawn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.1333e+06,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/ocean-dawn.jpg",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/ocean-dawn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/service-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 316864,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/service-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/service-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/service-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101955,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/service-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/service-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/service-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 932300,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/service-3.png",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/service-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/images\/slider.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317503,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/images\/slider.jpg",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/images\/slider.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/alitech-template\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/js\/libs\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/alitech-template\/js\/libs\/jquery-1.10.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/jquery-1.10.2.min.js",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/min\/jquery-1.10.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/alitech-template\/js\/libs\/jquery-ui.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/jquery-ui.min.js",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/min\/jquery-ui.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/alitech-template\/js\/libs\/jquery.fullPage.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/jquery.fullPage.js",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/min\/jquery.fullPage-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/alitech-template\/js\/libs\/jquery.fullPage.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/jquery.fullPage.min.js",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/min\/jquery.fullPage.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/alitech-template\/js\/libs\/jquery.slimscroll.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/jquery.slimscroll.min.js",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/js\/libs\/min\/jquery.slimscroll.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/alitech-template\/js\/plugins\/jquery.bxslider.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/js\/plugins\/jquery.bxslider.js",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/js\/plugins\/min\/jquery.bxslider-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/alitech-template\/js\/plugins\/jquery.bxslider.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/js\/plugins\/jquery.bxslider.min.js",
+		"outputAbbreviatedPath": "\/assets\/alitech-template\/js\/plugins\/min\/jquery.bxslider.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/alitech-template\/teambuilding.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/teambuilding.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/alitech-template\/teams.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/alitech-template\/teams.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/css\/bootstrap.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/bootstrap.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/css\/font-awesome.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/font-awesome.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/css\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/main.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/plugins\/bxslider\/jquery.bxslider.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/plugins\/bxslider\/jquery.bxslider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/images\/bg-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112178,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-01.png",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bg-footer-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6232,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-footer-2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-footer-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bg-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5306,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-footer.png",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bg-intro-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58208,
+		"inputAbbreviatedPath": "\/assets\/images\/bg-intro-mobile.png",
+		"outputAbbreviatedPath": "\/assets\/images\/bg-intro-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/bxslider\/controls.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2806,
+		"inputAbbreviatedPath": "\/assets\/images\/bxslider\/controls.png",
+		"outputAbbreviatedPath": "\/assets\/images\/bxslider\/controls.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/demo\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.9176e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/demo\/1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/demo\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/demo\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.10614e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/demo\/2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/demo\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/demo\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.61272e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/demo\/3.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/demo\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/demo\/4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/demo\/4.png",
+		"outputAbbreviatedPath": "\/assets\/images\/demo\/4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/demo1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/demo1.png",
+		"outputAbbreviatedPath": "\/assets\/images\/demo1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/demo2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6415,
+		"inputAbbreviatedPath": "\/assets\/images\/demo2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/demo2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3641,
+		"inputAbbreviatedPath": "\/assets\/images\/logo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8635,
+		"inputAbbreviatedPath": "\/assets\/images\/logo1.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3641,
+		"inputAbbreviatedPath": "\/assets\/images\/logo2.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5077,
+		"inputAbbreviatedPath": "\/assets\/images\/logo3.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/ocean-dawn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.1333e+06,
+		"inputAbbreviatedPath": "\/assets\/images\/ocean-dawn.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/ocean-dawn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/service-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 316864,
+		"inputAbbreviatedPath": "\/assets\/images\/service-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/service-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/service-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101955,
+		"inputAbbreviatedPath": "\/assets\/images\/service-2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/service-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/service-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 932300,
+		"inputAbbreviatedPath": "\/assets\/images\/service-3.png",
+		"outputAbbreviatedPath": "\/assets\/images\/service-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/slider.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317503,
+		"inputAbbreviatedPath": "\/assets\/images\/slider.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/slider.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/js\/libs\/bootstrap.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/libs\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/libs\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/libs\/jquery-1.10.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/libs\/jquery-1.10.2.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/libs\/min\/jquery-1.10.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/libs\/jquery-ui.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/libs\/jquery-ui.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/libs\/min\/jquery-ui.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/libs\/jquery.fullPage.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/libs\/jquery.fullPage.js",
+		"outputAbbreviatedPath": "\/assets\/js\/libs\/min\/jquery.fullPage-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/libs\/jquery.fullPage.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/libs\/jquery.fullPage.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/libs\/min\/jquery.fullPage.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/libs\/jquery.slimscroll.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/libs\/jquery.slimscroll.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/libs\/min\/jquery.slimscroll.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/menu.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/menu.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/menu-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/plugins\/jquery.bxslider.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.bxslider.js",
+		"outputAbbreviatedPath": "\/assets\/js\/plugins\/min\/jquery.bxslider-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/plugins\/jquery.bxslider.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.bxslider.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/plugins\/min\/jquery.bxslider.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/plugins\/jquery.nav.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/plugins\/jquery.nav.js",
+		"outputAbbreviatedPath": "\/assets\/js\/plugins\/min\/jquery.nav-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/captcha.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/captcha.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/media\/banner\/558e5868b40ec.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.9176e+06,
+		"inputAbbreviatedPath": "\/media\/banner\/558e5868b40ec.jpg",
+		"outputAbbreviatedPath": "\/media\/banner\/558e5868b40ec.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/banner\/558e587579b3f.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.10614e+06,
+		"inputAbbreviatedPath": "\/media\/banner\/558e587579b3f.jpg",
+		"outputAbbreviatedPath": "\/media\/banner\/558e587579b3f.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/banner\/558e587fe8465.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.61272e+06,
+		"inputAbbreviatedPath": "\/media\/banner\/558e587fe8465.jpg",
+		"outputAbbreviatedPath": "\/media\/banner\/558e587fe8465.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e5ded860b6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 316864,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e5ded860b6.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e5ded860b6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e5e030a5eb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101955,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e5e030a5eb.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e5e030a5eb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e5e12bf971.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 932300,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e5e12bf971.png",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e5e12bf971.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6ae19d61c.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6ae19d61c.png",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6ae19d61c.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6afca604e.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6afca604e.png",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6afca604e.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6b17e74f0.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6b17e74f0.png",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6b17e74f0.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6b2ec6a61.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6b2ec6a61.png",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6b2ec6a61.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6b379c06d.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6b379c06d.png",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6b379c06d.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6b493e6ee.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6b493e6ee.png",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6b493e6ee.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6b565376d.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6b565376d.png",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6b565376d.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6b6192dad.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.21939e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6b6192dad.png",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6b6192dad.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6f2f28dee.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155923,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6f2f28dee.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6f2f28dee.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6f9f7e4dc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155923,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6f9f7e4dc.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6f9f7e4dc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6fb840227.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155923,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6fb840227.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6fb840227.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6fc398b0e.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155923,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6fc398b0e.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6fc398b0e.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6fcf5b639.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155923,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6fcf5b639.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6fcf5b639.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558e6fdbc29e0.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155923,
+		"inputAbbreviatedPath": "\/media\/post_img\/558e6fdbc29e0.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558e6fdbc29e0.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558f5d9bab761.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.14365e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558f5d9bab761.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558f5d9bab761.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558f5dcdcf21c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.14365e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558f5dcdcf21c.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558f5dcdcf21c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558f5df49e4c7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.12074e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558f5df49e4c7.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558f5df49e4c7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558f5e10895ca.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.17782e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558f5e10895ca.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558f5e10895ca.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/media\/post_img\/558f5e52166c8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.55782e+06,
+		"inputAbbreviatedPath": "\/media\/post_img\/558f5e52166c8.jpg",
+		"outputAbbreviatedPath": "\/media\/post_img\/558f5e52166c8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/thumbs\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/thumbs\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/summernote\/lang\/summernote-ar-AR.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-ar-AR.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-ar-AR-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-ca-ES.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-ca-ES.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-ca-ES-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-cs-CZ.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-cs-CZ.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-cs-CZ-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-da-DK.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-da-DK.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-da-DK-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-de-DE.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-de-DE.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-de-DE-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-es-ES.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-es-ES.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-es-ES-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-es-EU.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-es-EU.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-es-EU-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-fa-IR.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-fa-IR.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-fa-IR-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-fi-FI.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-fi-FI.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-fi-FI-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-fr-FR.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-fr-FR.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-fr-FR-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-he-IL.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-he-IL.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-he-IL-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-hu-HU.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-hu-HU.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-hu-HU-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-id-ID.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-id-ID.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-id-ID-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-it-IT.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-it-IT.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-it-IT-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-ja-JP.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-ja-JP.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-ja-JP-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-ko-KR.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-ko-KR.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-ko-KR-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-nb-NO.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-nb-NO.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-nb-NO-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-nl-NL.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-nl-NL.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-nl-NL-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-pl-PL.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-pl-PL.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-pl-PL-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-pt-BR.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-pt-BR.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-pt-BR-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-ro-RO.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-ro-RO.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-ro-RO-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-ru-RU.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-ru-RU.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-ru-RU-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-sk-SK.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-sk-SK.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-sk-SK-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-sl-SI.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-sl-SI.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-sl-SI-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-sr-RS-Latin.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-sr-RS-Latin.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-sr-RS-Latin-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-sr-RS.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-sr-RS.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-sr-RS-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-sv-SE.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-sv-SE.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-sv-SE-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-th-TH.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-th-TH.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-th-TH-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-tr-TR.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-tr-TR.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-tr-TR-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-uk-UA.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-uk-UA.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-uk-UA-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-vi-VN.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-vi-VN.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-vi-VN-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-zh-CN.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-zh-CN.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-zh-CN-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/lang\/summernote-zh-TW.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/lang\/summernote-zh-TW.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/lang\/min\/summernote-zh-TW-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/plugin\/summernote-ext-fontstyle.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/plugin\/summernote-ext-fontstyle.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/plugin\/min\/summernote-ext-fontstyle-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/plugin\/summernote-ext-hello.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/plugin\/summernote-ext-hello.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/plugin\/min\/summernote-ext-hello-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/plugin\/summernote-ext-video.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/plugin\/summernote-ext-video.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/plugin\/min\/summernote-ext-video-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/summernote.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/summernote.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/summernote\/summernote.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/summernote.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/min\/summernote-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/summernote\/summernote.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/summernote\/summernote.min.js",
+		"outputAbbreviatedPath": "\/vendor\/summernote\/min\/summernote.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/jquery.tinymce.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/jquery.tinymce.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/min\/jquery.tinymce.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/langs\/readme.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/langs\/readme.md",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/langs\/readme.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/tinymce\/plugins\/advlist\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/advlist\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/advlist\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/anchor\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/anchor\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/anchor\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/autolink\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/autolink\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/autolink\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/autoresize\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/autoresize\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/autoresize\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/autosave\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/autosave\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/autosave\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/bbcode\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/bbcode\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/bbcode\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/charmap\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/charmap\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/charmap\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/code\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/code\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/code\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/compat3x\/editable_selects.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/compat3x\/editable_selects.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/compat3x\/min\/editable_selects-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/compat3x\/form_utils.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/compat3x\/form_utils.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/compat3x\/min\/form_utils-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/compat3x\/mctabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/compat3x\/mctabs.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/compat3x\/min\/mctabs-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/compat3x\/tiny_mce_popup.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/compat3x\/tiny_mce_popup.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/compat3x\/min\/tiny_mce_popup-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/compat3x\/validate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/compat3x\/validate.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/compat3x\/min\/validate-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/contextmenu\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/contextmenu\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/contextmenu\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/directionality\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/directionality\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/directionality\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/emoticons\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/emoticons\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/emoticons\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/example\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/example\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/example\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/example_dependency\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/example_dependency\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/example_dependency\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/fullpage\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/fullpage\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/fullpage\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/fullscreen\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/fullscreen\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/fullscreen\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/hr\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/hr\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/hr\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/image\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/image\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/image\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/insertdatetime\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/insertdatetime\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/insertdatetime\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/layer\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/layer\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/layer\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/legacyoutput\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/legacyoutput\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/legacyoutput\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/link\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/link\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/link\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/lists\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/lists\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/lists\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/media\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/media\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/media\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/nonbreaking\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/nonbreaking\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/nonbreaking\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/noneditable\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/noneditable\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/noneditable\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/pagebreak\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/pagebreak\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/pagebreak\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/paste\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/paste\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/paste\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/preview\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/preview\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/preview\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/print\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/print\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/print\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/save\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/save\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/save\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/searchreplace\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/searchreplace\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/searchreplace\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/spellchecker\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/spellchecker\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/spellchecker\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/tabfocus\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/tabfocus\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/tabfocus\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/table\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/table\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/table\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/template\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/template\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/template\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/textcolor\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/textcolor\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/textcolor\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/visualblocks\/css\/visualblocks.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/visualblocks\/css\/visualblocks.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/tinymce\/plugins\/visualblocks\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/visualblocks\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/visualblocks\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/visualchars\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/visualchars\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/visualchars\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/plugins\/wordcount\/plugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/wordcount\/plugin.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/plugins\/wordcount\/min\/plugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/skins\/lightgray\/content.inline.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/lightgray\/content.inline.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/tinymce\/skins\/lightgray\/content.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/lightgray\/content.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/tinymce\/skins\/lightgray\/fonts\/readme.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/lightgray\/fonts\/readme.md",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/lightgray\/fonts\/readme.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/tinymce\/skins\/lightgray\/skin.ie7.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/lightgray\/skin.ie7.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/tinymce\/skins\/lightgray\/skin.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/lightgray\/skin.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/audio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 412,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/audio.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/audio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/dashicon-edit.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 251,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/dashicon-edit.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/dashicon-edit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/dashicon-no-alt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/dashicon-no-alt.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/dashicon-no-alt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/embedded.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27197,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/embedded.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/embedded.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/gallery-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 447,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/gallery-2x.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/gallery-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/gallery.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 379,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/gallery.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/gallery.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/more-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 897,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/more-2x.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/more-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/more.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 461,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/more.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/more.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/pagebreak-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 835,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/pagebreak-2x.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/pagebreak-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/pagebreak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1203,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/pagebreak.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/pagebreak.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/playlist-audio.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 440,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/playlist-audio.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/playlist-audio.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/playlist-video.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 290,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/playlist-video.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/playlist-video.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/images\/video.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 363,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/video.png",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/images\/video.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/vendor\/tinymce\/skins\/wordpress\/wp-content.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/skins\/wordpress\/wp-content.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor\/tinymce\/themes\/modern\/theme.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/themes\/modern\/theme.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/themes\/modern\/min\/theme-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/themes\/modern\/theme.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/themes\/modern\/theme.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/themes\/modern\/min\/theme.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/vendor\/tinymce\/tinymce.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor\/tinymce\/tinymce.min.js",
+		"outputAbbreviatedPath": "\/vendor\/tinymce\/min\/tinymce.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "TiBanh",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "Alitech",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "harddrive_gray"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableSmartyPants": 1,
+	"markdownExpandTabs": 1,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputFormat": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptPreserveConstEnums": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}

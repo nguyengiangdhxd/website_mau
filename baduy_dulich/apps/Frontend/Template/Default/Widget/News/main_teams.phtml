@@ -1,0 +1,57 @@
+<?php
+/** @var $widget */
+/** @var Terms $term */
+use Flywheel\Document\Html;
+/** @var Html $document */
+$document = $this->document();
+?>
+
+<!-- begin co-ordinateness people -->
+<div class="section" id="section4">
+    <div id="co-ordinateness-people" class="animateblock top" data-id="5rdPage">
+        <div class="container">
+            <h1><?php echo $widget->term->getName() ?></h1>
+
+            <?php if(sizeof($widget->list) > 0){ ?>
+            <div id="list-people">
+                <?php
+                for($i = 0, $size = sizeof($widget->list); $i < $size; ++$i){
+                    $item = $widget->list[$i];
+                    if($item instanceof \Posts){
+                        $detail_link = $controller->createUrl('post/detail', array('id' => $item->getId()));
+                        $img = $item->getMainImg();
+                        if ($img) {
+                            $img = $img->getThumbs('150', null, 'r');
+                        }
+                ?>
+
+                        <div class="col-sm-2 col-xs-12">
+                            <div class="avatar">
+                                <?php if ($img) : ?>
+                                    <img src="<?php echo $img ?>">
+                                <?php endif ?>
+                            </div>
+
+                            <p><?php echo $item->getTitle() ?></p>
+                        </div>
+
+                    <?php } ?>
+                <?php } ?>
+
+            </div>
+            <?php } ?>
+
+            <?php if($widget->term_id > 0){ ?>
+                <a target="_blank" class="btn btn-view-more hidden-xs" href="<?php echo $controller->createUrl('category/default', array('id' => $widget->term_id)) ?>">VÀ NHỮNG NGƯỜI KHÁC</a>
+            <?php } ?>
+
+        </div>
+    </div>
+
+    <!-- begin text -->
+    <div class="arrow_box" id="text">
+        <div class="container">
+            <?php echo $widget->term->getDescription() ?>
+        </div>
+    </div>
+</div>

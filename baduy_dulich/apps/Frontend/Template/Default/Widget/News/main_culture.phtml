@@ -1,0 +1,49 @@
+<?php
+/** @var $widget */
+/** @var Terms $term */
+use Flywheel\Document\Html;
+/** @var Html $document */
+$document = $this->document();
+?>
+
+<!-- begin culture -->
+<div class="section" id="section3">
+    <div id="culture" class="animateblock size" data-id="4rdPage">
+        <div class="container">
+            <h1><?php echo $widget->term->getName() ?></h1>
+
+            <?php echo $widget->term->getDescription() ?>
+
+            <?php if(sizeof($widget->list) > 0){ ?>
+                <ul class="b-list">
+                    <?php
+                    for($i = 0, $size = sizeof($widget->list); $i < $size; ++$i){
+                    $item = $widget->list[$i];
+                    if($item instanceof \Posts){
+                        $detail_link=$controller->createUrl('post/detail', array('id' => $item->getId()));
+                        //$detail_link = $controller->createUrl('post/detail', array('id' => $item->getId()));
+                        $img = $item->getMainImg();
+                        if ($img) {
+                            $img = $img->getThumbs('300', null, 'r');
+                        }
+                        ?>
+                            <li>
+                                <div class="box-new">
+                                    <div class="module-float text-center">
+                                        <a href="<?php echo $detail_link; ?>" target="_blank">
+                                            <?php if ($img) : ?>
+                                                <img src="<?php echo $img ?>">
+                                            <?php endif ?>
+                                        </a>
+                                    </div>
+
+                                    <a title="<?php echo $item->getTitle() ?>" target="_blank" href="<?php echo $detail_link; ?>" class="title"><?php echo $item->getTitle() ?></a>
+                                </div>
+                            </li>
+                        <?php } ?>
+                    <?php } ?>
+                </ul>
+            <?php } ?>
+        </div>
+    </div>
+</div>

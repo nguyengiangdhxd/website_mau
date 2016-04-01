@@ -1,0 +1,26 @@
+<?php
+/** @var SlideShow $widget */
+use Flywheel\Document\Html;
+/** @var Html $document */
+$document = $this->document();
+?>
+
+<?php if (!empty($widget->banners)) :?>
+    <div class="box-adv">
+        <?php for($i = 0, $size=sizeof($widget->banners); $i < $size; ++$i) :?>
+            <?php
+            $banner = $widget->banners[$i];
+            ?>
+
+            <div class="col-sm-4 col-xs-12">
+                <div class="box-adv-content">
+                    <a href="<?php echo $banner->getLink() ?>" target="<?php echo $banner->getLinkTarget() ?>">
+                        <img width="100%" src="<?php echo \Setting::get('site_url') . $banner->getFile(); ?>" />
+                    </a>
+                </div>
+            </div>
+
+        <?php endfor; ?>
+    </div>
+<?php endif; ?>
+

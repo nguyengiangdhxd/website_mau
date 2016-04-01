@@ -1,0 +1,70 @@
+<?php
+/** @var \Flywheel\View\Render $this */
+/** @var $contacts  */
+/** @var $total_records  */
+
+$this->document()->addJs('js/process/contact.js');
+
+?>
+
+<div class="col-md-12">
+    <div class="box box-color">
+        <div class="box-title">
+            <h3>Danh sách liên hệ</h3>
+        </div>
+
+        <?php
+            if($total_records){
+                ?>
+
+                    <div class="box-content nopadding">
+                        <table class="table table-nomargin table-fix">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Họ và tên</th>
+                                    <th>Địa chỉ</th>
+                                    <th>Điện thoại</th>
+                                    <th>Email</th>
+                                    <th>Tiêu đề</th>
+                                    <th>Nội dung</th>
+                                    <th>Thời gian gửi</th>
+                                    <th>Thao tác</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+
+                            <?php foreach($contacts as $contact){
+                                if($contact instanceof \Contacts){
+                                ?>
+                                    <tr class="_row">
+                                        <td><?php echo $contact->getId() ?></td>
+                                        <td><?php echo $contact->getFullname() ?></td>
+                                        <td><?php echo $contact->getAddress() ?></td>
+                                        <td><?php echo $contact->getMobiphone() ?></td>
+                                        <td><?php echo $contact->getEmail() ?></td>
+                                        <td><?php echo $contact->getSubject() ?></td>
+                                        <td><?php echo $contact->getContent() ?></td>
+                                        <td><?php echo $contact->getCreatedTime() ? $contact->getCreatedTime()->format('H:i:s d/m/Y') : '' ?></td>
+                                        <td>
+
+                                            <a class="_delete" data-id="<?php echo $contact->getId() ?>" href="javascript:">Xóa</a>
+                                        </td>
+                                    </tr>
+                                <?php } ?>
+                            <?php } ?>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                <?php
+            }else{
+                echo '<h5>Chưa có liên hệ nào.</h5>';
+            }
+        ?>
+
+
+    </div>
+</div>

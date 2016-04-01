@@ -1,0 +1,44 @@
+<?php
+/** @var $widget */
+use Flywheel\Document\Html;
+/** @var Html $document */
+$document = $this->document();
+?>
+
+<!-- begin service -->
+<div class="section" id="section1">
+    <div id="services" class="animateblock left" data-id="2rdPage">
+        <div class="container">
+
+            <h1><?php echo $widget->term->getName() ?></h1>
+
+            <?php if(sizeof($widget->list) > 0){
+                    $class = ['one', 'two', 'three'];
+                ?>
+
+                <?php for($i = 0, $size = sizeof($widget->list); $i < $size; ++$i){
+                    $item = $widget->list[$i];
+                    if($item instanceof \Posts){
+//                    var_dump($item->toArray());
+                    $detail_link = $controller->createUrl('post/detail', array('id' => $item->getId()));
+                    $img = $item->getMainImg();
+                    ?>
+
+                        <div class="col-sm-4 col-xs-12">
+                            <a href="<?php echo $detail_link; ?>" target="_blank">
+                                <div class="box <?php echo isset($class[$i]) ? $class[$i] : 'one' ?>">
+                                    <?php if ($img) : ?>
+                                        <img src="<?php echo $img->getUrl() ?>">
+                                    <?php endif ?>
+                                    <h5><?php echo $item->getTitle() ?></h5>
+                                </div>
+                            </a>
+                        </div>
+                    <?php } ?>
+
+                <?php } ?>
+
+            <?php } ?>
+        </div>
+    </div>
+</div>

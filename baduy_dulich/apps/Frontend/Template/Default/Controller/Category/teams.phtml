@@ -1,0 +1,90 @@
+<?php
+use Flywheel\View\Render;
+use Toxotes\Cms;
+
+/** @var Render $this */
+/** @var Posts[] $posts */
+/** @var Terms $cat */
+
+$this->document()->addJs('js/menu.js');
+
+$page_title = $cat->getName();
+$this->document()->title = $page_title;
+$number_show = 8;
+?>
+
+<script>
+    $(document).ready(function(){
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip({
+                html: true
+            })
+        });
+    });
+</script>
+
+<div id="page-teams">
+    <div class="container">
+        <h1><?php echo $cat->getName() ?></h1>
+
+        <div class="description">
+            <?php echo $cat->getDescription() ?>
+        </div>
+        <?php if (!empty($posts)){ ?>
+            <ul id="teams">
+                <?php
+                $count = 0;
+                foreach($posts as $post) :
+                    $count++;
+                    if($count > $number_show) { continue; }
+                    $detail_link = $controller->createUrl('post/detail', array('id' => $post->getId()));
+                    $img = $post->getMainImg();
+                    if ($img) {
+                        $img = $img->getThumbs('680', null, 'r');
+                    }
+                    ?>
+                        <li>
+                            <img src="<?php echo $img ?>">
+
+                            <div class="right">
+                                <p>
+                                    <strong><?php echo $post->getTitle() ?></strong> <?php echo $post->getExcerpt() ? " - " . $post->getExcerpt() : "" ?>
+                                </p>
+                                <div><?php echo $post->getContent() ?></div>
+                            </div>
+                        </li>
+                <?php endforeach; ?>
+            </ul>
+        <?php }else{ ?>
+            <h5>Chưa có dữ liệu.</h5>
+        <?php } ?>
+
+        <div id="other">
+            <h3>Các thành viên khác</h3>
+            <?php if (!empty($posts)){ ?>
+                <ul>
+                    <?php
+                    $c = 0;
+                    foreach($posts as $post) :
+                        $c++;
+                        if($c <= $number_show) { continue; }
+                        $detail_link = $controller->createUrl('post/detail', array('id' => $post->getId()));
+                        $img = $post->getMainImg();
+                        if ($img) {
+                            $img = $img->getThumbs('680', null, 'r');
+                        }
+                        ?>
+                            <li data-toggle="tooltip" data-placement="top" title="<?php echo $post->getTitle() ?> <?php echo $post->getExcerpt() ? " - " . $post->getExcerpt() : "" ?>" >
+                                <a href="javascript:">
+                                    <img src="<?php echo $img ?>">
+                                </a>
+                            </li>
+                    <?php endforeach; ?>
+                </ul>
+            <?php }else{ ?>
+                <h5>Chưa có dữ liệu.</h5>
+            <?php } ?>
+        </div>
+
+    </div>
+</div>

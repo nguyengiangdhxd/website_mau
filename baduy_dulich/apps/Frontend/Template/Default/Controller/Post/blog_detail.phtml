@@ -1,0 +1,73 @@
+<?php
+use Frontend\Controller\FrontendBase;
+
+/** @var \Terms $term */
+/** @var \Posts $post */
+/** @var FrontendBase $controller */
+
+$this->document()->addJs('js/menu.js');
+
+$page_title = $post->getTitle();
+$this->document()->title = $page_title;
+
+$link = $controller->createUrl('post/detail', array('id' => $post->getId()), '&', true); //absolute link for facebook comment
+
+$img = $post->getMainImg();
+?>
+
+<div id="page-blog-detail">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-xs-12">
+                <div class="primary">
+                    <div class="content">
+                        <h3><?php echo $post->getTitle(); ?></h3>
+
+                        <div class="time">
+                            <span><i class="fa fa-calendar-o"></i> <?php echo $post->getCreatedTime()->format('H:i d/m/Y'); ?></span>
+                            <span class="author">, bởi <a href="javascript:"><?php echo $post->getAuthor() ?></a></span>
+
+                            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                        </div>
+
+                        <div class="content"><?php echo $post->getContent() ?></div>
+                    </div>
+
+<!--                    <div class="tag">-->
+<!--                        <i class="fa fa-tags"></i>-->
+<!--                        <ul>-->
+<!--                            <li><a href="">PHP</a>,&nbsp;</li>-->
+<!--                            <li><a href="">OpenCart</a>,&nbsp;</li>-->
+<!--                            <li><a href="">Other</a>&nbsp;</li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+
+<!--                    <div class="comments">-->
+<!--                        <ul>-->
+<!--                            <li>-->
+<!--                                <a href="">-->
+<!--                                    <img src="images/demo1.png" />-->
+<!--                                </a>-->
+<!--                                <div class="right">-->
+<!--                                    <div class="info">-->
+<!--                                        <a href="">LƯU TRỌNG HIẾU</a>-->
+<!--                                        <span>Product Manager at Alitech</span>-->
+<!--                                    </div>-->
+<!--                                    <div class="description">-->
+<!--                                        Sajal belongs to India and he loves to spend time creating websites based on open source-->
+<!--                                        frameworks. Apart from this, it's traveling and listening music which takes the rest of his-->
+<!--                                        time!-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <?php include __DIR__ .'/../../sidebar.php'; ?>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,99 @@
+<?php
+use Flywheel\View\Render;
+use Toxotes\Cms;
+
+/** @var Render $this */
+/** @var Posts[] $posts */
+/** @var Items[] $items */
+/** @var Terms $cat */
+/** @var Terms $term */
+/** @var $total */
+/** @var $keyword */
+/** @var $page_size */
+
+$title = $term->getName();
+$page_title = $title;
+$this->document()->title = $page_title;
+//var_dump($items);
+?>
+
+<div class="row">
+    <div class="col-sm-3 col-xs-12">
+        <?php include __DIR__ .'/../../sidebar.php'; ?>
+    </div>
+    <div class="col-sm-9 col-xs-12">
+
+        <ol class="breadcrumb">
+            <li><a href="">Trang chủ</a></li>
+            <li class="active"><?php echo $title ?></li>
+        </ol>
+
+        <?php if($keyword){ ?>
+            <p class="text-info">Tìm thấy <strong><?php echo $total ?></strong> kết quả với từ khóa <strong>[ <?php echo $keyword ?> ]</strong></p>
+        <?php } ?>
+
+        <div class="list-group">
+            <a href="javascript:" class="list-group-item text-uppercase">
+                <?php echo $title ?>
+            </a>
+            <div class="list-group-item">
+
+                <?php if (sizeof($items)){ ?>
+                    <div class="row">
+                        <?php
+                        foreach($items as $item) :
+                            if(!$item instanceof \Items){
+                                continue;
+                            }
+
+                            $detail_link = $controller->createUrl('products/detail', array('id' => $item->getId()));
+                            $title = $item->getName();
+                            $regular_price = $item->getRegularPrice();
+                            $imgThumb = $item->getMainImgThumb(200);
+                            $imgThumb = $imgThumb ? $imgThumb : "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNGVmNDZlZWE5NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE0ZWY0NmVlYTk1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMi45NTgzMzM5NjkxMTYyMTEiIHk9IjM2LjY1Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==";
+                            ?>
+
+                            <div class="box-product-item col-sm-3 col-xs-12 text-center">
+                                <a href="<?php echo $detail_link ?>">
+                                    <img alt="<?php echo $title ?>" width="100%" src="<?php echo $imgThumb ?>" />
+                                </a>
+                                <h5>
+                                    <a class="ellipsis" href="<?php echo $detail_link ?>" title="<?php echo $title ?>">
+                                        <?php echo $title ?>
+                                    </a>
+                                </h5>
+                                <p class="text-danger"><?php echo number_format($regular_price, 2, ",", ".") ?> VNĐ</p>
+                            </div>
+
+                        <?php endforeach; ?>
+                    </div>
+                <?php }else{ ?>
+                    <small class="text-danger">Chưa có dữ liệu.</small>
+                <?php } ?>
+
+            </div>
+        </div>
+
+        <!-- begin paging -->
+        <div id="paging">
+            <nav>
+                <?php
+                $route[0] = 'products/category';
+                foreach ($_GET as $k=>$v) {
+                    $route[$k] = $v;
+                }
+                if ($total > 0 && $page_size > 0) {
+                    $this->widget('app.Widget.FrontendPagination', array(
+                        'pageSize' => $page_size,
+                        'total' => $total,
+                        'currentPage' => $this->request()->get('page', 'INT', 1),
+                        'route' => $route,
+                    ));
+                }
+                ?>
+            </nav>
+        </div>
+        <!-- end paging -->
+
+    </div>
+</div>
